@@ -7,12 +7,12 @@
 //
 
 #import "ClassController.h"
-#import "NSObject+KVO.h"
+#import "KVObject.h"
 
 @interface ClassController ()
 
 /** 属性 */
-@property (nonatomic, strong) NSObject* kObj;
+@property (nonatomic, strong) KVObject* kObj;
 
 @end
 
@@ -22,13 +22,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSObject* kObj = [[NSObject alloc] init];
-    kObj.categoryName = @"我是分类名字";
-    NSLog(@"%@", kObj.categoryName);
+    KVObject* kObj = [[KVObject alloc] init];
+    kObj.hgName = @"HG";
+    NSLog(@"%@", kObj.hgName);
     self.kObj = kObj;
     
     // 添加KVO监听
-    [kObj addObserver:self forKeyPath:@"categoryName" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
+    [kObj addObserver:self forKeyPath:@"hgName" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
 }
 
 // 系统监听KVO变化的方法
@@ -37,13 +37,15 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    self.kObj.categoryName = @"分类名字被修改";
+    self.kObj.hgName = @"CoderHG";
+    
+//    [self.kObj updateHGName];
 }
 
 
 - (void)dealloc {
     // 移除KVO监听
-    [self.kObj removeObserver:self forKeyPath:@"categoryName"];
+    [self.kObj removeObserver:self forKeyPath:@"hgName"];
 }
 
 
