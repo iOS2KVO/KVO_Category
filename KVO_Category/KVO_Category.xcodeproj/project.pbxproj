@@ -12,10 +12,12 @@
 		517BB7281FF8D6D500672A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517BB7271FF8D6D500672A88 /* Assets.xcassets */; };
 		517BB72B1FF8D6D500672A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517BB7291FF8D6D500672A88 /* LaunchScreen.storyboard */; };
 		517BB72E1FF8D6D500672A88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517BB72D1FF8D6D500672A88 /* main.m */; };
-		517BB7361FF8D71F00672A88 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 517BB7351FF8D71F00672A88 /* NSObject+KVO.m */; };
-		517BB7391FF8D73400672A88 /* KVObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 517BB7381FF8D73400672A88 /* KVObject.m */; };
-		517BB73C1FF9243400672A88 /* ClassController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517BB73B1FF9243400672A88 /* ClassController.m */; };
-		517BB73F1FF9244600672A88 /* CategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517BB73E1FF9244600672A88 /* CategoryController.m */; };
+		51B871562000922200C25B42 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B871542000922200C25B42 /* NSObject+KVO.m */; };
+		51B871572000922200C25B42 /* KVObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B871552000922200C25B42 /* KVObject.m */; };
+		51B8715C2000923600C25B42 /* CategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8715A2000923600C25B42 /* CategoryController.m */; };
+		51B8715D2000923600C25B42 /* ClassController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8715B2000923600C25B42 /* ClassController.m */; };
+		51B871612000933A00C25B42 /* SimpleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B871602000933A00C25B42 /* SimpleObject.m */; };
+		51B8716420009CB200C25B42 /* SimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B8716320009CB200C25B42 /* SimpleController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,14 +29,18 @@
 		517BB72A1FF8D6D500672A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		517BB72C1FF8D6D500672A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		517BB72D1FF8D6D500672A88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		517BB7341FF8D71F00672A88 /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
-		517BB7351FF8D71F00672A88 /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
-		517BB7371FF8D73400672A88 /* KVObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVObject.h; sourceTree = "<group>"; };
-		517BB7381FF8D73400672A88 /* KVObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVObject.m; sourceTree = "<group>"; };
-		517BB73A1FF9243400672A88 /* ClassController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassController.h; sourceTree = "<group>"; };
-		517BB73B1FF9243400672A88 /* ClassController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassController.m; sourceTree = "<group>"; };
-		517BB73D1FF9244600672A88 /* CategoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryController.h; sourceTree = "<group>"; };
-		517BB73E1FF9244600672A88 /* CategoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryController.m; sourceTree = "<group>"; };
+		51B871522000922200C25B42 /* KVObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVObject.h; sourceTree = "<group>"; };
+		51B871532000922200C25B42 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		51B871542000922200C25B42 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		51B871552000922200C25B42 /* KVObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVObject.m; sourceTree = "<group>"; };
+		51B871582000923600C25B42 /* CategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryController.h; sourceTree = "<group>"; };
+		51B871592000923600C25B42 /* ClassController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassController.h; sourceTree = "<group>"; };
+		51B8715A2000923600C25B42 /* CategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryController.m; sourceTree = "<group>"; };
+		51B8715B2000923600C25B42 /* ClassController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassController.m; sourceTree = "<group>"; };
+		51B8715F2000933A00C25B42 /* SimpleObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleObject.h; sourceTree = "<group>"; };
+		51B871602000933A00C25B42 /* SimpleObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleObject.m; sourceTree = "<group>"; };
+		51B8716220009CB200C25B42 /* SimpleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleController.h; sourceTree = "<group>"; };
+		51B8716320009CB200C25B42 /* SimpleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,23 +73,51 @@
 		517BB71D1FF8D6D500672A88 /* KVO_Category */ = {
 			isa = PBXGroup;
 			children = (
+				51B87150200091CB00C25B42 /* Controllers */,
+				51B87151200091DA00C25B42 /* Objects */,
+				51B8715E2000924D00C25B42 /* Others */,
 				517BB71E1FF8D6D500672A88 /* AppDelegate.h */,
 				517BB71F1FF8D6D500672A88 /* AppDelegate.m */,
-				517BB73A1FF9243400672A88 /* ClassController.h */,
-				517BB73B1FF9243400672A88 /* ClassController.m */,
-				517BB73D1FF9244600672A88 /* CategoryController.h */,
-				517BB73E1FF9244600672A88 /* CategoryController.m */,
-				517BB7371FF8D73400672A88 /* KVObject.h */,
-				517BB7381FF8D73400672A88 /* KVObject.m */,
-				517BB7341FF8D71F00672A88 /* NSObject+KVO.h */,
-				517BB7351FF8D71F00672A88 /* NSObject+KVO.m */,
+			);
+			path = KVO_Category;
+			sourceTree = "<group>";
+		};
+		51B87150200091CB00C25B42 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51B871592000923600C25B42 /* ClassController.h */,
+				51B8715B2000923600C25B42 /* ClassController.m */,
+				51B871582000923600C25B42 /* CategoryController.h */,
+				51B8715A2000923600C25B42 /* CategoryController.m */,
+				51B8716220009CB200C25B42 /* SimpleController.h */,
+				51B8716320009CB200C25B42 /* SimpleController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		51B87151200091DA00C25B42 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				51B871522000922200C25B42 /* KVObject.h */,
+				51B871552000922200C25B42 /* KVObject.m */,
+				51B871532000922200C25B42 /* NSObject+KVO.h */,
+				51B871542000922200C25B42 /* NSObject+KVO.m */,
+				51B8715F2000933A00C25B42 /* SimpleObject.h */,
+				51B871602000933A00C25B42 /* SimpleObject.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		51B8715E2000924D00C25B42 /* Others */ = {
+			isa = PBXGroup;
+			children = (
 				517BB7241FF8D6D500672A88 /* Main.storyboard */,
 				517BB7271FF8D6D500672A88 /* Assets.xcassets */,
 				517BB7291FF8D6D500672A88 /* LaunchScreen.storyboard */,
 				517BB72C1FF8D6D500672A88 /* Info.plist */,
 				517BB72D1FF8D6D500672A88 /* main.m */,
 			);
-			path = KVO_Category;
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,12 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				517BB73C1FF9243400672A88 /* ClassController.m in Sources */,
-				517BB7361FF8D71F00672A88 /* NSObject+KVO.m in Sources */,
-				517BB7391FF8D73400672A88 /* KVObject.m in Sources */,
+				51B8715D2000923600C25B42 /* ClassController.m in Sources */,
 				517BB72E1FF8D6D500672A88 /* main.m in Sources */,
-				517BB73F1FF9244600672A88 /* CategoryController.m in Sources */,
+				51B8715C2000923600C25B42 /* CategoryController.m in Sources */,
+				51B8716420009CB200C25B42 /* SimpleController.m in Sources */,
+				51B871612000933A00C25B42 /* SimpleObject.m in Sources */,
+				51B871572000922200C25B42 /* KVObject.m in Sources */,
 				517BB7201FF8D6D500672A88 /* AppDelegate.m in Sources */,
+				51B871562000922200C25B42 /* NSObject+KVO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8Y5E9ZUX3;
-				INFOPLIST_FILE = KVO_Category/Info.plist;
+				INFOPLIST_FILE = KVO_Category/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CoderHG.KVO-Category";
@@ -313,7 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8Y5E9ZUX3;
-				INFOPLIST_FILE = KVO_Category/Info.plist;
+				INFOPLIST_FILE = KVO_Category/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CoderHG.KVO-Category";

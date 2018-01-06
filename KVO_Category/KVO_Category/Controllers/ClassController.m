@@ -39,6 +39,14 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     self.kObj.hgName = @"CoderHG";
     
+    // 不能触发KVO
+//    [self.kObj setValue:@"CoderHG" forKey:@"_hgName"];
+    
+    // 能触发KVO
+//    [self.kObj setValue:@"CoderHG" forKey:@"hgName"];
+    
+    //
+    
 //    [self.kObj updateHGName];
 }
 

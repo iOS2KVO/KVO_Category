@@ -61,6 +61,26 @@
                                             <segue destination="8h4-55-SPl" kind="show" id="N3w-fS-0z6"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="IzF-z0-X1t" style="IBUITableViewCellStyleDefault" id="FVc-Ql-X6Z">
+                                        <rect key="frame" x="0.0" y="123" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FVc-Ql-X6Z" id="PNZ-NN-REp">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="史上最简单的KVO实现方式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IzF-z0-X1t">
+                                                    <rect key="frame" x="16" y="0.0" width="324" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Uze-cD-m4W" kind="show" id="Qct-Wk-3PG"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -88,7 +108,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Tw-A7-1Ap" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2017" y="-289"/>
+            <point key="canvasLocation" x="402" y="1021"/>
+        </scene>
+        <!--Simple-->
+        <scene sceneID="21C-DH-CcD">
+            <objects>
+                <viewController title="Simple" id="Uze-cD-m4W" customClass="SimpleController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Vr-6I-TP8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="mLv-Ka-oNL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EeM-Z9-LpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="1021"/>
         </scene>
         <!--Category-->
         <scene sceneID="4sN-bw-CbE">
@@ -103,7 +138,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZkF-Pb-4FD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2017" y="628"/>
+            <point key="canvasLocation" x="1081" y="1021"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NiB-SF-XEW">
