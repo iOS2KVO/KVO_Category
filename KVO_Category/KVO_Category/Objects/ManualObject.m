@@ -12,6 +12,10 @@
 
 // 从写setter方法
 - (void)setManual:(NSString *)manual {
+    if (_manual == manual) {
+        return;
+    }
+    
     [self willChangeValueForKey:@"manual"];
     _manual = manual.copy;
     [self didChangeValueForKey:@"manual"];
