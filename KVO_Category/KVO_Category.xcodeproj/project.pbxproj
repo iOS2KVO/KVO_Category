@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511D129C20124ABB009C2417 /* ManualObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 511D129B20124ABB009C2417 /* ManualObject.m */; };
+		511D129F20124AE7009C2417 /* ManualController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511D129E20124AE7009C2417 /* ManualController.m */; };
 		517BB7201FF8D6D500672A88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517BB71F1FF8D6D500672A88 /* AppDelegate.m */; };
 		517BB7261FF8D6D500672A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517BB7241FF8D6D500672A88 /* Main.storyboard */; };
 		517BB7281FF8D6D500672A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517BB7271FF8D6D500672A88 /* Assets.xcassets */; };
@@ -21,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		511D129A20124ABB009C2417 /* ManualObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManualObject.h; sourceTree = "<group>"; };
+		511D129B20124ABB009C2417 /* ManualObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManualObject.m; sourceTree = "<group>"; };
+		511D129D20124AE7009C2417 /* ManualController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManualController.h; sourceTree = "<group>"; };
+		511D129E20124AE7009C2417 /* ManualController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManualController.m; sourceTree = "<group>"; };
 		517BB71B1FF8D6D500672A88 /* KVO_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVO_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517BB71E1FF8D6D500672A88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		517BB71F1FF8D6D500672A88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +97,8 @@
 				51B8715A2000923600C25B42 /* CategoryController.m */,
 				51B8716220009CB200C25B42 /* SimpleController.h */,
 				51B8716320009CB200C25B42 /* SimpleController.m */,
+				511D129D20124AE7009C2417 /* ManualController.h */,
+				511D129E20124AE7009C2417 /* ManualController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -104,6 +112,8 @@
 				51B871542000922200C25B42 /* NSObject+KVO.m */,
 				51B8715F2000933A00C25B42 /* SimpleObject.h */,
 				51B871602000933A00C25B42 /* SimpleObject.m */,
+				511D129A20124ABB009C2417 /* ManualObject.h */,
+				511D129B20124ABB009C2417 /* ManualObject.m */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -192,9 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B8715D2000923600C25B42 /* ClassController.m in Sources */,
+				511D129F20124AE7009C2417 /* ManualController.m in Sources */,
 				517BB72E1FF8D6D500672A88 /* main.m in Sources */,
 				51B8715C2000923600C25B42 /* CategoryController.m in Sources */,
 				51B8716420009CB200C25B42 /* SimpleController.m in Sources */,
+				511D129C20124ABB009C2417 /* ManualObject.m in Sources */,
 				51B871612000933A00C25B42 /* SimpleObject.m in Sources */,
 				51B871572000922200C25B42 /* KVObject.m in Sources */,
 				517BB7201FF8D6D500672A88 /* AppDelegate.m in Sources */,
